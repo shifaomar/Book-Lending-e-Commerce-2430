@@ -31,7 +31,7 @@ public class Runner {
         cart.addProduct(item4);
         
         System.out.println("Items in the cart:");
-        System.out.println(cart);
+        System.out.println(cart.toString());
 
         System.out.println("Total Cart Price (before tax): $" + cart.beforeTaxPrice());
         

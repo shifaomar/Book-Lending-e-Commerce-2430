@@ -49,7 +49,7 @@ Apple: 14.12
 Orange: 21.19
 tomato: 42.38
 
-Total Cart Price (before tax): $55.0
+Total Cart Price before tax: $55.0
 Checking out 
 Number of items in the cart = 3
 Total Cart Price including tax: $77.6875

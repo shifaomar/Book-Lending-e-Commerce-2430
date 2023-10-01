@@ -51,15 +51,14 @@ The Secret Garden : not available.
 Anne of Green Gables : not available.
 Little Women : available.
 
--- Returning Books --
-The Secret Garden : returned.
-Anne of Green Gables : returned.
+-- Returning Book --
+true : returned.
 
 -- Checking which books are available --
 The Secret Garden : available.
-Anne of Green Gables : available.
+Anne of Green Gables : not available.
 Little Women : available.
-
+trying to borrow Anne of Green Gables again : 
 ## Limitations
 
 What isn't done? What things cause errors?  

@@ -38,16 +38,17 @@ public class Runner {
         System.out.println(book3.getTitle() + " : " + (book3.isBorrowed() ? "not available." : "available."));
 
         // Returning Books
-        System.out.println("\n-- Returning Books --");
+        System.out.println("\n-- Returning Book --");
         System.out.println(book1.giveBack() + " : returned.");
-        System.out.println(book2.giveBack() + " : returned.");
-        
 
         // Checking The Availability Again
         System.out.println("\n-- Checking which books are available --");
         System.out.println(book1.getTitle() + " : " + (book1.isBorrowed() ? "not available." : "available."));
         System.out.println(book2.getTitle() + " : " + (book2.isBorrowed() ? "not available." : "available."));
         System.out.println(book3.getTitle() + " : " + (book3.isBorrowed() ? "not available." : "available."));
+
+        //trying to borrow an already borrowed book
+        System.out.println("trying to borrow " + book2.getTitle() + " again : " + book2.borrow());
 
     }
 }
