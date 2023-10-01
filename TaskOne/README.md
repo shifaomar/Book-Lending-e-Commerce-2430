@@ -1,10 +1,18 @@
 # Project Title
 
+book Lending 
+
 Simple overview of use/purpose.
+
+A program for lending and borrowing books and checking for their availability.
 
 ## Description
 
 An in-depth paragraph about your project and overview of use.
+
+This program has a Book class which contains mutator to set the title of the book, the author, and to check if it is borrowed or not. it also contains methods to borrow and lend the books, and a toString method which returns the title of the book and the authors name.
+
+
 
 ## Getting Started
 
@@ -18,10 +26,39 @@ An in-depth paragraph about your project and overview of use.
 
 * How to build and run the program
 * Step-by-step bullets
+
+1. gradle build
+2. gradle echo
+3. copy command to run code
+4. paste command onto terminal and run
 ```
 use code blocks for commands
 ```
 * include the expected output
+
+
+-- Adding Books --
+The Secret Garden: Frances Hodgson Burnett - added.
+Anne of Green Gables: Lucy Maud Montgomery - added.
+Little Women: Louisa May Alcott - added.
+
+-- Borrowing Books --
+The Secret Garden : borrowed.
+Anne of Green Gables : borrowed.
+
+-- Checking which books are available --
+The Secret Garden : not available.
+Anne of Green Gables : not available.
+Little Women : available.
+
+-- Returning Books --
+The Secret Garden : returned.
+Anne of Green Gables : returned.
+
+-- Checking which books are available --
+The Secret Garden : available.
+Anne of Green Gables : available.
+Little Women : available.
 
 ## Limitations
 
@@ -30,6 +67,8 @@ What isn't done? What things cause errors?
 ## Author Information
 
 Your name and contact information including your email address
+NAME: Shifa Sheikh
+EMAIL: ssheik08@uoguelph.ca
 
 ## Development History
 
