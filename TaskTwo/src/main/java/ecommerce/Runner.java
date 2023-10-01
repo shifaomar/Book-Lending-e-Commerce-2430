@@ -39,11 +39,11 @@ public class Runner {
         cart.removeProduct(item4);
 
         System.out.println("Items in the cart:");
-        System.out.println(cart);
+        System.out.println(cart.toString());
 
-        System.out.println("Total Cart Price (before tax): $" + cart.beforeTaxPrice());
+        System.out.println("Total Cart Price before tax: $" + cart.beforeTaxPrice());
 
-        // Checkout and display cart size
+        // Checkout and cart size
         System.out.println("Checking out \nNumber of items in the cart = " + cart.getCartSize());
         System.out.println("Total Cart Price including tax: $" + cart.totalCartPrice());
         cart.checkout();
