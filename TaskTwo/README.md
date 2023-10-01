@@ -43,7 +43,7 @@ tomato: 42.38
 avocado: 282.50
 
 Total Cart Price (before tax): $255.0
-Removing avocado
+Removing item number 349: avocado
 Items in the cart:
 Apple: 14.12
 Orange: 21.19
