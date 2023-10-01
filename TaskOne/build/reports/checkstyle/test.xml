@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="9.3">
-<file name="/course/coursework/A1Starter/starterFilesA1/TaskOne/src/test/java/book/BookTest.java">
-<error line="9" column="15" severity="error" message="Unused import - org.junit.jupiter.api.Assertions.assertNotNull." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-</file>
-</checkstyle>
