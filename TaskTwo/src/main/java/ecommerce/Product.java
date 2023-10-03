@@ -41,7 +41,7 @@ public class Product {
         return name;
     }
 
-    public double getCost() {
+    double getCost() {
         return wholesaleCost;
     }
 
